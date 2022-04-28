@@ -1,3 +1,14 @@
-.App {
-  text-align: center;
+*{
+  background-color: #0f0e17;
+  margin: 0;
+  padding: 0;
+}
+
+.header {
+  align-items: center;
+  box-shadow: 0px 1px 18px #fffffe;
+  color: #a7a9be;
+  display: flex;
+  justify-content: center;
+  height: 250px;
 }
