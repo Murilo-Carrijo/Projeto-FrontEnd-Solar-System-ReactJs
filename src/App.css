@@ -6,9 +6,10 @@
 
 .header {
   align-items: center;
-  box-shadow: 0px 1px 18px #fffffe;
-  color: #fffffe;
+  box-shadow: 0px 1px 18px #a7a9be;
+  color: #f25f4c;
   display: flex;
+  font-size: 64px;
   justify-content: center;
   height: 250px;
 }
@@ -27,8 +28,8 @@ h1 {
   background: none;
   color: #a7a9be;
   display: flex;
+  font-size: 48px;
   justify-content: center;
-  margin-top: 48px;
 }
 
 .planet-card {
@@ -55,4 +56,42 @@ h3 {
   display:flex;
   font-size: 32px;
   justify-content: center;
+}
+
+.contaniner-missions {
+  margin-top: 0px;
+  box-shadow: 0px 1px 18px #a7a9be;
+}
+
+.mission {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.mission-card {
+  border-style: solid;
+  border-radius: 10px;
+  border-width: medium;
+  color: #a7a9be;
+  height: 150px;
+  margin-bottom: 16px;
+  margin-left: 16px;
+  margin-top: 48px;
+  width: 400px;
+}
+
+h4 {
+  display: flex;
+  flex-wrap: wrap;
+  font-size: 24px;
+  justify-content: center;
+  
+}
+
+p {
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  padding: 8px;
 }
