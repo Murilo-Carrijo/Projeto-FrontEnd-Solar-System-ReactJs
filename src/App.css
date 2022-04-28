@@ -7,17 +7,52 @@
 .header {
   align-items: center;
   box-shadow: 0px 1px 18px #fffffe;
-  color: #a7a9be;
+  color: #fffffe;
   display: flex;
   justify-content: center;
   height: 250px;
 }
 
+h1 {
+  background: none;
+}
+
 .container-solarSystem {
-  color: #a7a9be;
   box-shadow: 0px 1px 18px #fffffe;
+  background: url("https://www.segredosdosonho.com.br/wp-content/uploads/2020/08/sonhar-com-ceu-estrelado-1024x683.jpeg") center/cover;
+  color: #a7a9be;
 }
 
 .title {
+  background: none;
   color: #a7a9be;
+  display: flex;
+  justify-content: center;
+  margin-top: 48px;
+}
+
+.planet-card {
+  margin-left: 100px;
+  background:none;
+}
+
+.planets {
+  align-items: center;
+  background: none;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin-top: 48px;
+}
+
+img {
+  background: none;
+}
+
+h3 {
+  background: none;
+  color: #F4B41A;
+  display:flex;
+  font-size: 32px;
+  justify-content: center;
 }
