@@ -1,20 +1,19 @@
-@import url('https://fonts.googleapis.com/css2?family=Bangers&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bangers&display=swap') ;
 
-*{
+* {
   background-color: #0f0e17;
+  font-family: Bangers , cursive;
   margin: 0;
   padding: 0;
-  font-family: 'Bangers', cursive;
 }
 
 .header {
   align-items: center;
-  box-shadow: 0px 1px 18px #a7a9be;
   color: #f25f4c;
   display: flex;
   font-size: 64px;
-  justify-content: center;
   height: 250px;
+  justify-content: center;
 }
 
 h1 {
@@ -22,8 +21,8 @@ h1 {
 }
 
 .container-solarSystem {
-  box-shadow: 0px 1px 18px #fffffe;
-  background: url("https://www.segredosdosonho.com.br/wp-content/uploads/2020/08/sonhar-com-ceu-estrelado-1024x683.jpeg") center/cover;
+  background: url('https://www.segredosdosonho.com.br/wp-content/uploads/2020/08/sonhar-com-ceu-estrelado-1024x683.jpeg') center/cover;
+  box-shadow: 0 1px 18px #fffffe;
   color: #a7a9be;
 }
 
@@ -33,13 +32,13 @@ h1 {
   color: #a7a9be;
   display: flex;
   font-size: 48px;
+  height: 100px;
   justify-content: center;
-  height: 100px;;
 }
 
 .planet-card {
+  background: none;
   margin-left: 100px;
-  background:none;
 }
 
 .planets {
@@ -57,15 +56,15 @@ img {
 
 h3 {
   background: none;
-  color: #F4B41A;
-  display:flex;
+  color: #f4b41a;
+  display: flex;
   font-size: 32px;
   justify-content: center;
 }
 
 .contaniner-missions {
-  margin-top: 0px;
-  box-shadow: 0px 1px 18px #a7a9be;
+  box-shadow: 0 1px 18px #a7a9be;
+  margin-top: 0;
 }
 
 .mission {
@@ -75,8 +74,8 @@ h3 {
 }
 
 .mission-card {
-  border-style: solid;
   border-radius: 10px;
+  border-style: solid;
   border-width: medium;
   color: #a7a9be;
   height: 150px;
@@ -91,7 +90,6 @@ h4 {
   flex-wrap: wrap;
   font-size: 24px;
   justify-content: center;
-  
 }
 
 p {
